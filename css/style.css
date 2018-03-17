@@ -1,0 +1,33 @@
+body{
+	background: url("../png/kover.png") no-repeat center;
+	background-size: cover;
+}
+.container{
+	width: 600px;
+	height: 600px;
+	position: absolute;
+	top: calc(50% - 300px);
+	left: calc(50% - 300px);
+
+}
+.container table{
+	width: inherit;
+	height: inherit;
+}
+.black{
+	content: "";
+	background: black;
+	color: #fff;
+	width: 12.5%;
+	height: 12.5%;
+	text-align: center;
+	font-size: 40px;
+}
+.white{
+	content: "";
+	background: white;
+	width: 12.5%;
+	height: 12.5%;
+	text-align: center;
+	font-size: 40px;
+}
